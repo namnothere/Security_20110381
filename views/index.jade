@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p Here is your secret
+  p
+    a(href="/secret") SHOW ME!
+  p
+    a(href="/auth/google") google login
+  p
+    a(href="/auth/google") logout
+
